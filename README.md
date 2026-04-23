@@ -11,6 +11,7 @@ Official user-facing front page for the current SUPRX Windows wallet release.
 - [Main site](https://suprx.supermoms.info/)
 - [Proof page](https://suprx.supermoms.info/proof.html)
 - [Explorer](https://api.suprx.supermoms.info/explorer/)
+- Support: `suprx@supermoms.info`
 
 ## Current Windows Release
 
@@ -54,6 +55,8 @@ The hash should match:
 00c304a1fce64e49396f844fbac617810aec7f558c18767959b43ca34b3dd9ef
 ```
 
+`SHA256SUMS.txt` also includes the checksums for `suprx-qt.exe`, `suprxd.exe`, `suprx-cli.exe`, `suprx-tx.exe`, `suprx-wallet.exe`, and `suprx-util.exe`.
+
 ## Important Safety Notes
 
 - This repo is meant to contain only public release files and public docs.
@@ -73,4 +76,3 @@ The hash should match:
 - [Tokenomics](https://suprx.supermoms.info/tokenomics.html)
 - [Litepaper](https://suprx.supermoms.info/litepaper.html)
 - [Builder Bounties](https://suprx.supermoms.info/bounties.html)
-
