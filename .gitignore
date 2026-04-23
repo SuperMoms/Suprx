@@ -1,0 +1,42 @@
+# Secrets and env
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Wallet and node data
+wallet.dat
+wallets/
+suprx_data/
+wallet-backups/
+mobile-recovery/
+*.ldb
+*.log
+peers.dat
+mempool.dat
+banlist.json
+anchors.dat
+blocks/
+chainstate/
+database/
+
+# Build and temp
+build/
+build-*/
+release-build/
+tmp/
+tmp-*/
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+

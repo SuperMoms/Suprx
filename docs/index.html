@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SUPRX Wallet Download</title>
+  <meta name="description" content="Official front page for the current SUPRX Windows wallet release.">
+  <style>
+    :root {
+      --bg: #07090d;
+      --panel: #10151d;
+      --panel-2: #171f2a;
+      --text: #f3f4f6;
+      --muted: #9aa4b2;
+      --line: rgba(255,255,255,0.10);
+      --accent: #c83b3b;
+      --accent-2: #ff785a;
+      --ok: #8dd39e;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      background:
+        radial-gradient(circle at top, rgba(200,59,59,0.18), transparent 30%),
+        linear-gradient(180deg, #050607, #0b1016 50%, #06080b);
+      color: var(--text);
+    }
+    .shell {
+      width: min(1100px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 40px 0 64px;
+    }
+    .hero {
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      gap: 24px;
+      align-items: center;
+      padding: 28px;
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      background: linear-gradient(180deg, rgba(16,21,29,0.95), rgba(10,13,18,0.92));
+      box-shadow: 0 20px 60px rgba(0,0,0,0.35);
+    }
+    .hero img {
+      width: 100%;
+      display: block;
+    }
+    .eyebrow {
+      margin: 0 0 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--accent-2);
+      font-size: 12px;
+      font-weight: 700;
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2rem, 5vw, 3.4rem);
+      line-height: 1;
+    }
+    .lede {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.05rem;
+      max-width: 760px;
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 20px;
+    }
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 18px;
+      border-radius: 999px;
+      text-decoration: none;
+      color: white;
+      font-weight: 700;
+      border: 1px solid transparent;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+    }
+    .button.secondary {
+      background: transparent;
+      border-color: var(--line);
+      color: var(--text);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+      margin-top: 20px;
+    }
+    .card {
+      padding: 20px;
+      border-radius: 18px;
+      border: 1px solid var(--line);
+      background: linear-gradient(180deg, var(--panel), var(--panel-2));
+    }
+    .label {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+    .value {
+      font-size: 1.12rem;
+      font-weight: 700;
+      word-break: break-word;
+    }
+    .section {
+      margin-top: 22px;
+      padding: 24px;
+      border-radius: 22px;
+      border: 1px solid var(--line);
+      background: rgba(16,21,29,0.72);
+    }
+    .section h2 {
+      margin: 0 0 12px;
+      font-size: 1.4rem;
+    }
+    .section p, .section li {
+      color: var(--muted);
+      line-height: 1.6;
+    }
+    code, pre {
+      font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+    }
+    pre {
+      overflow: auto;
+      padding: 14px;
+      border-radius: 14px;
+      background: #0a0d12;
+      border: 1px solid var(--line);
+      color: #f7f7f7;
+    }
+    .ok {
+      color: var(--ok);
+      font-weight: 700;
+    }
+    a { color: #ffc3b2; }
+    @media (max-width: 720px) {
+      .hero { grid-template-columns: 1fr; }
+      .hero img { max-width: 180px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <img src="../assets/SuprX.png" alt="SUPRX logo">
+      <div>
+        <p class="eyebrow">SUPRX Wallet</p>
+        <h1>Download the current Windows wallet package.</h1>
+        <p class="lede">This front page is for real users. It points to the current Windows wallet ZIP, shows the checksum, and keeps the release surface clean.</p>
+        <div class="actions">
+          <a class="button" href="../downloads/suprx-win64.zip">Download ZIP</a>
+          <a class="button secondary" href="../SHA256SUMS.txt">View checksums</a>
+          <a class="button secondary" href="https://suprx.supermoms.info/">Official site</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <span class="label">Archive</span>
+        <div class="value">suprx-win64.zip</div>
+      </article>
+      <article class="card">
+        <span class="label">Build package date</span>
+        <div class="value">April 22, 2026</div>
+      </article>
+      <article class="card">
+        <span class="label">Archive size</span>
+        <div class="value">67,916,173 bytes</div>
+      </article>
+      <article class="card">
+        <span class="label">SHA256</span>
+        <div class="value">00c304a1fce64e49396f844fbac617810aec7f558c18767959b43ca34b3dd9ef</div>
+      </article>
+    </section>
+
+    <section class="section">
+      <h2>What is inside</h2>
+      <ul>
+        <li><strong>suprx-qt.exe</strong> for the desktop wallet UI</li>
+        <li><strong>suprxd.exe</strong> for the node daemon</li>
+        <li><strong>suprx-cli.exe</strong>, <strong>suprx-wallet.exe</strong>, <strong>suprx-tx.exe</strong>, and <strong>suprx-util.exe</strong> for command-line and wallet tools</li>
+        <li><strong>vc_redist.x64.exe</strong> for the Microsoft runtime if the machine needs it</li>
+        <li><strong>export_mobile_recovery_easy.bat</strong> for future wallet migration support</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Quick start</h2>
+      <ol>
+        <li>Download <code>suprx-win64.zip</code>.</li>
+        <li>Unzip it into a normal folder.</li>
+        <li>Run <code>vc_redist.x64.exe</code> if Windows reports missing runtime files.</li>
+        <li>Open <code>suprx-qt.exe</code>.</li>
+        <li>Let the wallet sync before trusting balances.</li>
+      </ol>
+    </section>
+
+    <section class="section">
+      <h2>Verify the download</h2>
+      <p class="ok">Do this before you move funds into a new machine.</p>
+      <pre>Get-FileHash .\suprx-win64.zip -Algorithm SHA256</pre>
+      <p>The result should match:</p>
+      <pre>00c304a1fce64e49396f844fbac617810aec7f558c18767959b43ca34b3dd9ef</pre>
+    </section>
+
+    <section class="section">
+      <h2>Safety</h2>
+      <ul>
+        <li>This publish repo should contain only public release files.</li>
+        <li>It should never include <code>wallet.dat</code>, private keys, mobile recovery exports, or <code>.env</code> files.</li>
+        <li>Anyone who gets private recovery exports can take the coins.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Project links</h2>
+      <ul>
+        <li><a href="https://suprx.supermoms.info/about.html">About SUPRX</a></li>
+        <li><a href="https://suprx.supermoms.info/tokenomics.html">Tokenomics</a></li>
+        <li><a href="https://suprx.supermoms.info/proof.html">Reserve proof</a></li>
+        <li><a href="https://api.suprx.supermoms.info/explorer/">Explorer</a></li>
+        <li><a href="https://suprx.supermoms.info/bounties.html">Builder bounties</a></li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
+
