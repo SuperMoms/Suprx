@@ -7,7 +7,7 @@ Official public release repo for SUPRX wallet downloads.
 ## Downloads
 
 - [Windows wallet ZIP](downloads/suprx-win64.zip)
-- [Linux archive](downloads/suprx-linux-x86_64-v1.0.3.tar.gz)
+- [Linux archive](downloads/suprx-linux-x86_64-v1.0.4.tar.gz)
 - [Windows checksums](SHA256SUMS.txt)
 - [Linux checksum](SHA256SUMS-linux.txt)
 - [Main site](https://suprx.supermoms.info/)
@@ -23,14 +23,14 @@ Official public release repo for SUPRX wallet downloads.
 - File: `suprx-win64.zip`
 - Built package date: `April 24, 2026`
 - Size: `67,905,880 bytes`
-- SHA256: `124005d8564df05aef40f0b205559d3e742aafc1cca6bcd76c0ade55303e4ca2`
+- SHA256: `1b8848c32d803b58b672772c237893eef15905ad7ffe53fe96ee59b7e98a2f87`
 
 ### Linux
 
-- File: `suprx-linux-x86_64-v1.0.3.tar.gz`
+- File: `suprx-linux-x86_64-v1.0.4.tar.gz`
 - Built package date: `April 24, 2026`
-- Size: `16,754,766 bytes`
-- SHA256: `0174a8aae6d7c8bc233ad02d3394282cfcacfe045f2e2798d4feb6caa742428b`
+- Size: `16,754,441 bytes`
+- SHA256: `1b6ba878145929b40f70dc1cc2bddc06fd70efa82f372351013a5099fb955944`
 
 ## What Is Inside
 
@@ -66,8 +66,8 @@ Official public release repo for SUPRX wallet downloads.
 
 ### Linux
 
-1. Download `suprx-linux-x86_64-v1.0.3.tar.gz`.
-2. Extract it with `tar -xzf suprx-linux-x86_64-v1.0.3.tar.gz`.
+1. Download `suprx-linux-x86_64-v1.0.4.tar.gz`.
+2. Extract it with `tar -xzf suprx-linux-x86_64-v1.0.4.tar.gz`.
 3. Open the `bin` folder and run `./suprxd` or `./suprx`.
 4. Let the node sync before trusting balances.
 
@@ -88,13 +88,13 @@ Expected:
 ### Linux
 
 ```bash
-sha256sum suprx-linux-x86_64-v1.0.3.tar.gz
+sha256sum suprx-linux-x86_64-v1.0.4.tar.gz
 ```
 
 Expected:
 
 ```text
-0174a8aae6d7c8bc233ad02d3394282cfcacfe045f2e2798d4feb6caa742428b
+1b6ba878145929b40f70dc1cc2bddc06fd70efa82f372351013a5099fb955944
 ```
 
 ## Important Safety Notes
