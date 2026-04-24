@@ -7,7 +7,7 @@ Official public release repo for SUPRX wallet downloads.
 ## Downloads
 
 - [Windows wallet ZIP](downloads/suprx-win64.zip)
-- [Linux archive](downloads/suprx-linux-x86_64-v1.0.1.tar.gz)
+- [Linux archive](downloads/suprx-linux-x86_64-v1.0.3.tar.gz)
 - [Windows checksums](SHA256SUMS.txt)
 - [Linux checksum](SHA256SUMS-linux.txt)
 - [Main site](https://suprx.supermoms.info/)
@@ -23,14 +23,14 @@ Official public release repo for SUPRX wallet downloads.
 - File: `suprx-win64.zip`
 - Built package date: `April 24, 2026`
 - Size: `67,905,880 bytes`
-- SHA256: `3db00c9949f9a25c82eb19eb27e3599f3a7092cdd3340db6712f912d9b4cf52b`
+- SHA256: `124005d8564df05aef40f0b205559d3e742aafc1cca6bcd76c0ade55303e4ca2`
 
 ### Linux
 
-- File: `suprx-linux-x86_64-v1.0.1.tar.gz`
-- Built package date: `April 22, 2026`
-- Size: `14,592,589 bytes`
-- SHA256: `2d89778319362157dcd961e8247f6a3371c094da8ed38f1161a347427afde41a`
+- File: `suprx-linux-x86_64-v1.0.3.tar.gz`
+- Built package date: `April 24, 2026`
+- Size: `16,754,766 bytes`
+- SHA256: `0174a8aae6d7c8bc233ad02d3394282cfcacfe045f2e2798d4feb6caa742428b`
 
 ## What Is Inside
 
@@ -66,8 +66,8 @@ Official public release repo for SUPRX wallet downloads.
 
 ### Linux
 
-1. Download `suprx-linux-x86_64-v1.0.1.tar.gz`.
-2. Extract it with `tar -xzf suprx-linux-x86_64-v1.0.1.tar.gz`.
+1. Download `suprx-linux-x86_64-v1.0.3.tar.gz`.
+2. Extract it with `tar -xzf suprx-linux-x86_64-v1.0.3.tar.gz`.
 3. Open the `bin` folder and run `./suprxd` or `./suprx`.
 4. Let the node sync before trusting balances.
 
@@ -82,19 +82,19 @@ Get-FileHash .\suprx-win64.zip -Algorithm SHA256
 Expected:
 
 ```text
-3db00c9949f9a25c82eb19eb27e3599f3a7092cdd3340db6712f912d9b4cf52b
+124005d8564df05aef40f0b205559d3e742aafc1cca6bcd76c0ade55303e4ca2
 ```
 
 ### Linux
 
 ```bash
-sha256sum suprx-linux-x86_64-v1.0.1.tar.gz
+sha256sum suprx-linux-x86_64-v1.0.3.tar.gz
 ```
 
 Expected:
 
 ```text
-2d89778319362157dcd961e8247f6a3371c094da8ed38f1161a347427afde41a
+0174a8aae6d7c8bc233ad02d3394282cfcacfe045f2e2798d4feb6caa742428b
 ```
 
 ## Important Safety Notes
