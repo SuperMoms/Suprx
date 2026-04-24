@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SUPRX Wallet Download</title>
-  <meta name="description" content="Official front page for the current SUPRX Windows wallet release.">
+  <title>SUPRX Wallet Downloads</title>
+  <meta name="description" content="Official public release page for current SUPRX Windows and Linux wallet downloads.">
   <style>
     :root {
       --bg: #07090d;
@@ -27,18 +27,18 @@
       color: var(--text);
     }
     .shell {
-      width: min(1100px, calc(100% - 32px));
+      width: min(1080px, calc(100% - 28px));
       margin: 0 auto;
-      padding: 40px 0 64px;
+      padding: 28px 0 52px;
     }
     .hero {
       display: grid;
-      grid-template-columns: 180px 1fr;
-      gap: 24px;
+      grid-template-columns: 150px 1fr;
+      gap: 20px;
       align-items: center;
-      padding: 28px;
+      padding: 22px;
       border: 1px solid var(--line);
-      border-radius: 24px;
+      border-radius: 22px;
       background: linear-gradient(180deg, rgba(16,21,29,0.95), rgba(10,13,18,0.92));
       box-shadow: 0 20px 60px rgba(0,0,0,0.35);
     }
@@ -55,28 +55,29 @@
       font-weight: 700;
     }
     h1 {
-      margin: 0 0 12px;
-      font-size: clamp(2rem, 5vw, 3.4rem);
+      margin: 0 0 10px;
+      font-size: clamp(2rem, 5vw, 3.1rem);
       line-height: 1;
     }
     .lede {
       margin: 0;
       color: var(--muted);
-      font-size: 1.05rem;
+      font-size: 1rem;
       max-width: 760px;
+      line-height: 1.55;
     }
     .actions {
       display: flex;
       flex-wrap: wrap;
-      gap: 12px;
-      margin-top: 20px;
+      gap: 10px;
+      margin-top: 18px;
     }
     .button {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      min-height: 48px;
-      padding: 0 18px;
+      min-height: 44px;
+      padding: 0 16px;
       border-radius: 999px;
       text-decoration: none;
       color: white;
@@ -91,13 +92,13 @@
     }
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 16px;
-      margin-top: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 14px;
+      margin-top: 16px;
     }
     .card {
-      padding: 20px;
-      border-radius: 18px;
+      padding: 16px;
+      border-radius: 16px;
       border: 1px solid var(--line);
       background: linear-gradient(180deg, var(--panel), var(--panel-2));
     }
@@ -108,20 +109,24 @@
       font-size: 0.85rem;
     }
     .value {
-      font-size: 1.12rem;
+      font-size: 1.05rem;
       font-weight: 700;
       word-break: break-word;
     }
     .section {
-      margin-top: 22px;
-      padding: 24px;
-      border-radius: 22px;
+      margin-top: 18px;
+      padding: 20px;
+      border-radius: 18px;
       border: 1px solid var(--line);
       background: rgba(16,21,29,0.72);
     }
     .section h2 {
-      margin: 0 0 12px;
-      font-size: 1.4rem;
+      margin: 0 0 10px;
+      font-size: 1.25rem;
+    }
+    .section h3 {
+      margin: 14px 0 8px;
+      font-size: 1rem;
     }
     .section p, .section li {
       color: var(--muted);
@@ -132,7 +137,7 @@
     }
     pre {
       overflow: auto;
-      padding: 14px;
+      padding: 12px;
       border-radius: 14px;
       background: #0a0d12;
       border: 1px solid var(--line);
@@ -145,7 +150,7 @@
     a { color: #ffc3b2; }
     @media (max-width: 720px) {
       .hero { grid-template-columns: 1fr; }
-      .hero img { max-width: 180px; }
+      .hero img { max-width: 160px; }
     }
   </style>
 </head>
@@ -154,12 +159,14 @@
     <section class="hero">
       <img src="../assets/SuprX.png" alt="SUPRX logo">
       <div>
-        <p class="eyebrow">SUPRX Wallet</p>
-        <h1>Download the current Windows wallet package.</h1>
-        <p class="lede">This front page is for real users. It points to the current Windows wallet ZIP, shows the checksum, and keeps the release surface clean.</p>
+        <p class="eyebrow">SUPRX Wallet Downloads</p>
+        <h1>Public Windows and Linux releases.</h1>
+        <p class="lede">This page is for real users. It points to the current SUPRX wallet downloads, shows the checksums, and keeps the public release surface clean.</p>
         <div class="actions">
-          <a class="button" href="../downloads/suprx-win64.zip">Download ZIP</a>
-          <a class="button secondary" href="../SHA256SUMS.txt">View checksums</a>
+          <a class="button" href="../downloads/suprx-win64.zip">Windows ZIP</a>
+          <a class="button" href="../downloads/suprx-linux-x86_64-v1.0.1.tar.gz">Linux archive</a>
+          <a class="button secondary" href="../SHA256SUMS.txt">Windows checksums</a>
+          <a class="button secondary" href="../SHA256SUMS-linux.txt">Linux checksum</a>
           <a class="button secondary" href="https://suprx.supermoms.info/">Official site</a>
         </div>
       </div>
@@ -167,25 +174,26 @@
 
     <section class="grid">
       <article class="card">
-        <span class="label">Archive</span>
+        <span class="label">Windows archive</span>
         <div class="value">suprx-win64.zip</div>
       </article>
       <article class="card">
-        <span class="label">Build package date</span>
-        <div class="value">April 22, 2026</div>
+        <span class="label">Windows SHA256</span>
+        <div class="value">3db00c9949f9a25c82eb19eb27e3599f3a7092cdd3340db6712f912d9b4cf52b</div>
       </article>
       <article class="card">
-        <span class="label">Archive size</span>
-        <div class="value">67,916,173 bytes</div>
+        <span class="label">Linux archive</span>
+        <div class="value">suprx-linux-x86_64-v1.0.1.tar.gz</div>
       </article>
       <article class="card">
-        <span class="label">SHA256</span>
-        <div class="value">00c304a1fce64e49396f844fbac617810aec7f558c18767959b43ca34b3dd9ef</div>
+        <span class="label">Linux SHA256</span>
+        <div class="value">2d89778319362157dcd961e8247f6a3371c094da8ed38f1161a347427afde41a</div>
       </article>
     </section>
 
     <section class="section">
       <h2>What is inside</h2>
+      <h3>Windows ZIP</h3>
       <ul>
         <li><strong>suprx-qt.exe</strong> for the desktop wallet UI</li>
         <li><strong>suprxd.exe</strong> for the node daemon</li>
@@ -193,10 +201,20 @@
         <li><strong>vc_redist.x64.exe</strong> for the Microsoft runtime if the machine needs it</li>
         <li><strong>export_mobile_recovery_easy.bat</strong> for future wallet migration support</li>
       </ul>
+      <h3>Linux archive</h3>
+      <ul>
+        <li><strong>bin/suprx</strong></li>
+        <li><strong>bin/suprxd</strong></li>
+        <li><strong>bin/suprx-cli</strong></li>
+        <li><strong>bin/suprx-wallet</strong></li>
+        <li><strong>bin/suprx-tx</strong></li>
+        <li><strong>bin/suprx-util</strong></li>
+      </ul>
     </section>
 
     <section class="section">
       <h2>Quick start</h2>
+      <h3>Windows</h3>
       <ol>
         <li>Download <code>suprx-win64.zip</code>.</li>
         <li>Unzip it into a normal folder.</li>
@@ -204,15 +222,25 @@
         <li>Open <code>suprx-qt.exe</code>.</li>
         <li>Let the wallet sync before trusting balances.</li>
       </ol>
+      <h3>Linux</h3>
+      <ol>
+        <li>Download <code>suprx-linux-x86_64-v1.0.1.tar.gz</code>.</li>
+        <li>Extract it with <code>tar -xzf suprx-linux-x86_64-v1.0.1.tar.gz</code>.</li>
+        <li>Run <code>./bin/suprxd</code> or <code>./bin/suprx</code>.</li>
+        <li>Let the wallet sync before trusting balances.</li>
+      </ol>
     </section>
 
     <section class="section">
-      <h2>Verify the download</h2>
+      <h2>Verify the downloads</h2>
       <p class="ok">Do this before you move funds into a new machine.</p>
+      <h3>Windows</h3>
       <pre>Get-FileHash .\suprx-win64.zip -Algorithm SHA256</pre>
-      <p>The result should match:</p>
-      <pre>00c304a1fce64e49396f844fbac617810aec7f558c18767959b43ca34b3dd9ef</pre>
-      <p><code>SHA256SUMS.txt</code> also lists the hashes for the main EXE files inside the package.</p>
+      <pre>3db00c9949f9a25c82eb19eb27e3599f3a7092cdd3340db6712f912d9b4cf52b</pre>
+      <h3>Linux</h3>
+      <pre>sha256sum suprx-linux-x86_64-v1.0.1.tar.gz</pre>
+      <pre>2d89778319362157dcd961e8247f6a3371c094da8ed38f1161a347427afde41a</pre>
+      <p><code>SHA256SUMS.txt</code> and <code>SHA256SUMS-linux.txt</code> are the public checksum files for this repo.</p>
     </section>
 
     <section class="section">
@@ -230,6 +258,7 @@
         <li><a href="https://suprx.supermoms.info/about.html">About SUPRX</a></li>
         <li><a href="https://suprx.supermoms.info/tokenomics.html">Tokenomics</a></li>
         <li><a href="https://suprx.supermoms.info/proof.html">Reserve proof</a></li>
+        <li><a href="https://suprx.supermoms.info/audit.html">Bridge audit</a></li>
         <li><a href="https://api.suprx.supermoms.info/explorer/">Explorer</a></li>
         <li><a href="https://suprx.supermoms.info/bounties.html">Builder bounties</a></li>
         <li><a href="mailto:suprx@supermoms.info">suprx@supermoms.info</a></li>
