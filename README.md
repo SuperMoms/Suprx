@@ -29,8 +29,8 @@ Official public release repo for SUPRX wallet downloads.
 
 - File: `suprx-linux-x86_64-v1.0.4.tar.gz`
 - Built package date: `April 24, 2026`
-- Size: `16,754,441 bytes`
-- SHA256: `1b6ba878145929b40f70dc1cc2bddc06fd70efa82f372351013a5099fb955944`
+- Size: `16,754,722 bytes`
+- SHA256: `f96d2b45c49aa68a80ba25cae11bc057a9b83080c298492eb8930dcf9ab227da`
 
 ## What Is Inside
 
@@ -94,7 +94,7 @@ sha256sum suprx-linux-x86_64-v1.0.4.tar.gz
 Expected:
 
 ```text
-1b6ba878145929b40f70dc1cc2bddc06fd70efa82f372351013a5099fb955944
+f96d2b45c49aa68a80ba25cae11bc057a9b83080c298492eb8930dcf9ab227da
 ```
 
 ## Important Safety Notes
