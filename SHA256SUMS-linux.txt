@@ -1,1 +1,1 @@
-f96d2b45c49aa68a80ba25cae11bc057a9b83080c298492eb8930dcf9ab227da  suprx-linux-x86_64-v1.0.4.tar.gz
+0d1120d6776429cd4a28914027ee01f99d7719fa39dbb466015bdceff1a09aff  suprx-linux-x86_64-v1.0.6.tar.gz
