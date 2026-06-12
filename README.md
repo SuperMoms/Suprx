@@ -7,7 +7,7 @@ Official public release repo for SUPRX wallet downloads.
 ## Downloads
 
 - [Windows wallet ZIP](downloads/suprx-win64.zip)
-- [Linux archive](downloads/suprx-linux-x86_64-v1.0.6.tar.gz)
+- [Linux archive](downloads/suprx-linux-x86_64-v1.0.7.tar.gz)
 - [Windows checksums](SHA256SUMS.txt)
 - [Linux checksum](SHA256SUMS-linux.txt)
 - [Main site](https://api.suprx.supermoms.info/)
@@ -21,16 +21,16 @@ Official public release repo for SUPRX wallet downloads.
 ### Windows
 
 - File: `suprx-win64.zip`
-- Built package date: `May 11, 2026`
-- Size: `67,856,758 bytes`
-- SHA256: `03d7f7c81a1d60c85724cc7615ad7fa52033eaedbe9434b28db9297257df6c3f`
+- Built package date: `June 11, 2026`
+- Size: `67,859,259 bytes`
+- SHA256: `046ed6aea74bf00e8290e244b05923b8bcf79fd3bd9b138ff57bacb6f274163d`
 
 ### Linux
 
-- File: `suprx-linux-x86_64-v1.0.6.tar.gz`
-- Built package date: `May 11, 2026`
-- Size: `16,853,641 bytes`
-- SHA256: `0d1120d6776429cd4a28914027ee01f99d7719fa39dbb466015bdceff1a09aff`
+- File: `suprx-linux-x86_64-v1.0.7.tar.gz`
+- Built package date: `June 11, 2026`
+- Size: `16,853,940 bytes`
+- SHA256: `e4daffef75a7bd9a47fa8588b86b0ce1208ad2496d46ff980d6b84b1e154eed4`
 
 ## What Is Inside
 
@@ -66,8 +66,8 @@ Official public release repo for SUPRX wallet downloads.
 
 ### Linux
 
-1. Download `suprx-linux-x86_64-v1.0.6.tar.gz`.
-2. Extract it with `tar -xzf suprx-linux-x86_64-v1.0.6.tar.gz`.
+1. Download `suprx-linux-x86_64-v1.0.7.tar.gz`.
+2. Extract it with `tar -xzf suprx-linux-x86_64-v1.0.7.tar.gz`.
 3. Open the `bin` folder and run `./suprxd` or `./suprx`.
 4. Let the node sync before trusting balances.
 
@@ -82,19 +82,19 @@ Get-FileHash .\suprx-win64.zip -Algorithm SHA256
 Expected:
 
 ```text
-03d7f7c81a1d60c85724cc7615ad7fa52033eaedbe9434b28db9297257df6c3f
+046ed6aea74bf00e8290e244b05923b8bcf79fd3bd9b138ff57bacb6f274163d
 ```
 
 ### Linux
 
 ```bash
-sha256sum suprx-linux-x86_64-v1.0.6.tar.gz
+sha256sum suprx-linux-x86_64-v1.0.7.tar.gz
 ```
 
 Expected:
 
 ```text
-0d1120d6776429cd4a28914027ee01f99d7719fa39dbb466015bdceff1a09aff
+e4daffef75a7bd9a47fa8588b86b0ce1208ad2496d46ff980d6b84b1e154eed4
 ```
 
 ## Important Safety Notes
