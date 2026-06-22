@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.7",
-    "publishedAt":  "2026-06-12T00:53:03Z",
+    "version":  "1.0.9",
+    "publishedAt":  "2026-06-22T18:20:09Z",
     "platform":  "windows-x64",
     "assetUrl":  "https://api.suprx.supermoms.info/downloads/suprx-win64.zip",
-    "sha256":  "046ed6aea74bf00e8290e244b05923b8bcf79fd3bd9b138ff57bacb6f274163d",
+    "sha256":  "619d9a665b37a5092d5615555e3e35d34e397f851bb68ca0e04cf63d2a8eef91",
     "notesUrl":  "https://github.com/SuperMoms/Suprx"
 }
